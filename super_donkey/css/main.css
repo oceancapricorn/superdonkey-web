@@ -1,0 +1,310 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html, body {
+	height: 100%;
+	width: 100%;
+	}
+
+
+.navbar {
+	padding: .8rem;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.carousel-caption h1 {
+	font-size: 800%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+.carousel-caption h3 {
+	font-size: 300%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+	font-family: 'Amatic SC', cursive;
+}
+
+.btn-primary {
+	background-color: #6648b1;
+	border: 1px solid #6648b1;
+}
+
+
+.btn-primary:hover {
+	background-color: #563d7c;
+	border: 1px solid #56357c;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+
+
+.social a {
+	font-size: 2em;
+	padding: 1.5rem;
+}
+
+
+.fa-facebook {
+	color: #3b5998;
+}
+
+.fa-instagram {
+	color: #517fa4;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover {
+	color: #d5d5d5;
+}
+
+
+
+/*table*/
+tr th {
+	text-align: left;	
+}
+
+
+
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer a {
+	color: #d5d5d5;
+}
+
+
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+.logo {
+	width: 70px;
+	height: 80px;
+}
+
+
+.login {
+	background: url(../images/ananas.jpg) no-repeat center center fixed;
+	background-size: cover; 
+}
+
+
+.user-img {
+	margin-top: -50px;	
+}
+
+
+.user-img img {
+	height: 100px;
+	width: 100px;
+}
+
+
+
+.main-section {
+	margin: 0 auto;	
+	margin-top: 150px;
+	padding: 0;
+}
+
+
+.modal-content {
+	background-color: #90cd9e;
+	opacity: .95;
+}
+
+
+
+.user-name {
+	margin: 10px 0;
+}
+
+
+.user-name h1 {
+	font-size: 30px;
+	color: #ccd6d7;
+}
+
+
+.form-input button {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.btn-success {
+	background-color: #f07a22;
+	border: 1px solid  #f07a22;
+}
+
+
+.btn-success:hover {
+	background-color: #e0680f;
+	border: 1px solid #e0680f;
+}
+
+.link-part {
+	background-color: #ecf0f1;
+	padding: 15px;
+	border-radius: 0 0 5px 5px;
+	border-top: 1px solid #c2c2c2;
+}
+
+#connect {
+	margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+@media (max-width: 992px){
+	.social a {
+		font-size: 2em;
+		padding: 1.3rem;
+	}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+.carousel-caption {
+	top: 45%;
+}
+.carousel-caption h1 {
+	font-size: 350%;
+}
+
+.carousel-caption h3 {
+	font-size: 140%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+	font-size: 95%;
+	padding: 8px 14px;
+}
+
+.display-4 {
+	font-size: 200%;
+}
+
+.social a {
+		font-size: 1.8em;
+		padding: 1.2rem;
+	}
+
+}
+  
+
+#meni {
+	margin: 100px;
+}
+
+
+#contact {
+	margin-top: 40px;
+}
+
+
+.container {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+
+.ikonice img {
+	width: 110px;
+	height: 100px;
+}
+
+@media (max-width: 576px) {
+.carousel-caption {
+	top: 30%;
+}
+.carousel-caption h1 {
+	font-size: 250%;
+}
+
+.carousel-caption h3 {
+	font-size: 110%;
+}
+.carousel-caption .btn {
+	font-size: 90%;
+	padding: 4px 8px;
+}
+.carousel-indicators {
+	display: none;
+}
+.display-4 {
+	font-size: 160%;
+}
+.social a {
+		font-size: 1.5em;
+		padding: 1.2rem;
+	}
+}	
